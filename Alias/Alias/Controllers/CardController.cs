@@ -5,9 +5,11 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace Alias.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class CardController : ApiController
     {
         Word enkapsuliacija = new Word { Value = "enkapsuliacija", Description = "obejktinio programavimo principas" };
@@ -19,8 +21,8 @@ namespace Alias.Controllers
         public Card Get()
         {
 
-            Card assholes = new Card { WordList = Atranka() };
-            return assholes;
+            Card card = new Card { WordList = Atranka() };
+            return card;
         }
 
         
