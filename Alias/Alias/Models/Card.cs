@@ -7,6 +7,6 @@ namespace Alias.Models
 {
     public class Card
     {
-        public List<Word> WordList { get; set; }
+        public List<Word> WordList { get; set; } = new List<Word>();
     }
 }

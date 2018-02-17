@@ -185,3 +185,10 @@ C:\Users\Lukas\source\repos\Alias\Alias\Alias\bin\System.Web.Http.Cors.xml
 C:\Users\Lukas\source\repos\Alias\Alias\Alias\obj\Debug\Alias.Migrations.Initial.resources
 C:\Users\Lukas\source\repos\Alias\Alias\Alias\obj\Debug\Alias.csproj.GenerateResource.Cache
 C:\Users\Lukas\source\repos\Alias\Alias\Alias\obj\Debug\Alias.Migrations.seedandpubliccontext.resources
+E:\Documents\Game Jams\Alias-hard\Alias\Alias\bin\System.Web.Cors.dll
+E:\Documents\Game Jams\Alias-hard\Alias\Alias\bin\System.Web.Http.Cors.dll
+E:\Documents\Game Jams\Alias-hard\Alias\Alias\bin\System.Web.Http.Cors.xml
+E:\Documents\Game Jams\Alias-hard\Alias\Alias\obj\Debug\Alias.Migrations.Initial.resources
+E:\Documents\Game Jams\Alias-hard\Alias\Alias\obj\Debug\Alias.Migrations.seedandpubliccontext.resources
+E:\Documents\Game Jams\Alias-hard\Alias\Alias\obj\Debug\Alias.csproj.GenerateResource.Cache
+E:\Documents\Game Jams\Alias-hard\Alias\Alias\obj\Debug\Alias.Migrations.change.resources

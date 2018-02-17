@@ -249,6 +249,7 @@
     <Compile Include="Controllers\CardController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="DAO\WordsDAO.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -260,16 +261,27 @@
     <Compile Include="Migrations\201802160925087_seed and public context.Designer.cs">
       <DependentUpon>201802160925087_seed and public context.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201802171309066_change.cs" />
+    <Compile Include="Migrations\201802171309066_change.Designer.cs">
+      <DependentUpon>201802171309066_change.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Card.cs" />
+    <Compile Include="Models\Team.cs" />
+    <Compile Include="Models\Turn.cs" />
+    <Compile Include="Models\Game.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Settings.cs" />
     <Compile Include="Models\Word.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
+    <Compile Include="Service\CardService.cs" />
+    <Compile Include="Service\TurnService.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="Utility\Enums.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
@@ -346,6 +358,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201802160925087_seed and public context.resx">
       <DependentUpon>201802160925087_seed and public context.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802171309066_change.resx">
+      <DependentUpon>201802171309066_change.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
