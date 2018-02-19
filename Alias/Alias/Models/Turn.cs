@@ -8,10 +8,17 @@ namespace Alias.Models
 {
     public class Turn
     {
+        public int Order { get; set; } = 0;
+        public double Time { get; set; }
         public int Dice { get; set; } = 1;
+
         public List<Card> FailedCards { get; set; } = new List<Card>();
+        public List<Card> CorrectCards { get; set; } = new List<Card>();
+
         public Enums.WordType WordType { get; set; } = Enums.WordType.regular;
-        public List<Word> UsableWords { get; set; }
-        public int score { get; set; } = 0;
+        public List<Word> WordList { get; set; }
+
+        public Team Team { get; set; } = new Team();
+        public int Score { get; set; } = 0;
     }
 }

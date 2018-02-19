@@ -14,18 +14,17 @@ namespace Alias.Controllers
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class CardController : ApiController
     {
-        CardService wordService = new CardService();
         // GET: api/Card
         public Card Get()
         {
-            Card card = wordService.DrawCard();
+            Card card = Services.DrawCard();
             return card;
         }
         
         // GET: api/Card/5
-        public string Get(int id)
+        public void Get(int id)
         {
-            return "value";
+            
         }
 
         // POST: api/Card

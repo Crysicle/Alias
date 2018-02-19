@@ -247,7 +247,9 @@
     <Compile Include="Context\WordsContext.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CardController.cs" />
+    <Compile Include="Controllers\GameController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TurnController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="DAO\WordsDAO.cs" />
     <Compile Include="Global.asax.cs">
@@ -278,8 +280,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
-    <Compile Include="Service\CardService.cs" />
-    <Compile Include="Service\TurnService.cs" />
+    <Compile Include="Service\Services.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Utility\Enums.cs" />
   </ItemGroup>
